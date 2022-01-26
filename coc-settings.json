@@ -1,0 +1,4 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["c", "cmake", "c++", "json"],
+  "powershell.integratedConsole.showOnStartup": false
+}
