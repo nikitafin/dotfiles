@@ -1,4 +1,27 @@
-{
-  "coc.preferences.formatOnSaveFiletypes": ["c", "cmake", "c++", "json"],
-  "powershell.integratedConsole.showOnStartup": false
-}
+  {
+    "suggest.noselect": false,
+    "coc.preferences.formatOnSaveFiletypes": [
+      "c",
+      "cmake",
+      "c++",
+      "cpp",
+      "json",
+      "cs",
+      "go"
+    ],
+    "powershell.integratedConsole.showOnStartup": false,
+    "languageserver": {
+      "golang": {
+        "command": "gopls",
+        "rootPatterns": [
+          "go.mod"
+        ],
+        "filetypes": [
+          "go"
+        ]
+      }
+    },
+    "go.goplsOptions": {
+      "staticcheck": true
+    }
+  }

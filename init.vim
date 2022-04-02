@@ -4,8 +4,11 @@ set nu
 set spelllang=en
 set tabstop=4
 set shiftwidth=4
-" Give more space for displaying messages.
-set cmdheight=2
+set termguicolors
+set guicursor+=a:blinkon2
+set cmdheight=3
+" split on bot
+set splitbelow
 
 set updatetime=1000 "ms
 
@@ -19,34 +22,35 @@ call plug#begin('~/.vim/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'sheerun/vim-polyglot'
 	Plug 'preservim/nerdtree'
-	" Plug 'xolox/vim-colorscheme-switcher'
+	Plug 'OmniSharp/omnisharp-vim'
+	Plug 'glepnir/lspsaga.nvim'
+	Plug 'xolox/vim-colorscheme-switcher'
+	Plug 'Pocco81/TrueZen.nvim'
+	Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+	Plug 'cdelledonne/vim-cmake'
 call plug#end()
 
-
+" colorscheme
+let g:alduin_Shout_Fire_Breath = 1
 set background=dark
-" colorscheme gruvbox
-colorscheme koehler
-if (has('termguicolors'))
-  set termguicolors
-endif
+colorscheme alduin
 
 " Coc setup
 "
 " Use <c-space> to trigger completion.
-inoremap <silent><expr> <c-y> coc#refresh()
+inoremap  <C-.> coc#refresh()
 
 " GoTo code navigation.
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gy <Plug>(coc-type-definition)
-nmap <silent> gi <Plug>(coc-implementation)
-nmap <silent> gr <Plug>(coc-references)
-" Symbol renaming.
+" nmap <silent> gd :sp<CR><Plug>(coc-definition)
+nmap <silent>gd :call CocAction('jumpDefinition', 'split')<CR>
+nmap <silent>gy <Plug>(coc-type-definition)
+nmap <silent>gi <Plug>(coc-implementation)
+nmap <silent>gr <Plug>(coc-references)
 nmap <leader>rn <Plug>(coc-rename)
-" Apply AutoFix to problem on the current line.
-nmap <leader>qf  <Plug>(coc-fix-current)
+nmap <leader>qf <Plug>(coc-fix-current)
 
-" Use K to show documentation in preview window.
-nnoremap <silent> K :call <SID>show_documentation()<CR>
+" Use Alt+Q to show documentation in preview window.
+nnoremap <silent> <A-q> :call <SID>show_documentation()<CR>
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
     execute 'h '.expand('<cword>')
@@ -57,6 +61,10 @@ function! s:show_documentation()
   endif
 endfunction
 
-" Remap <C-f> and <C-b> for scroll float windows/popups.
 nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
 nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
+nnoremap <silent><nowait><F4> :CocCommand clangd.switchSourceHeader<CR>
+
+" Keybindings
+nnoremap <silent><nowait><A-z> :TZAtaraxis<CR>
+nnoremap <silent><nowait><A-0> :NERDTreeToggle<CR>
