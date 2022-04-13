@@ -1,11 +1,9 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -20,8 +18,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -29,16 +26,31 @@
             "keys": "alt+shift+d"
         }
     ],
-    "copyFormatting": "none",
-    "copyOnSelect": true,
     "defaultProfile": "{1ed24701-2839-434f-bb20-dad145832901}",
     "experimental.rendering.forceFullRepaint": true,
-    "launchMode": "fullscreen",
-    "profiles": 
-    {
-        "defaults": {},
-        "list": 
-        [
+    "launchMode": "default",
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "trimBlockSelection": true,
+    "snapToGridOnResize": true,
+    "alwaysShowNotificationIcon": true,
+    "focusFollowMouse": true,
+    "theme": "dark",
+    "startOnUserLogin": false,
+    "profiles": {
+        "defaults": {
+            "font": {
+                "face": "PxPlus IBM VGA8"
+            },
+            "colorScheme": "Ciapre",
+            "intenseTextStyle": "none",
+            "padding": "20",
+            "cursorShape": "vintage",
+            "antialiasingMode": "grayscale",
+            "scrollbarState": "hidden"
+        },
+        "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -88,29 +100,16 @@
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "antialiasingMode": "grayscale",
-                "colorScheme": "Ciapre",
                 "commandline": "powershell.exe -NoExit -Command \"&{Import-Module \"\"\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell a35c048a -SkipAutomaticLocation -DevCmdArguments \"\"\"-arch=x64 -host_arch=x64\"\"\"}\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "PxPlus IBM VGA8",
-                    "size": 12
-                },
                 "guid": "{1ed24701-2839-434f-bb20-dad145832901}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-                "intenseTextStyle": "none",
                 "name": "cmd",
-                "padding": "10",
-                "scrollbarState": "hidden",
                 "startingDirectory": "C:\\"
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#23262E",
             "black": "#23262E",
@@ -387,7 +386,5 @@
             "white": "#FFFFFF",
             "yellow": "#FDF834"
         }
-    ],
-    "startOnUserLogin": false,
-    "theme": "dark"
+    ]
 }
