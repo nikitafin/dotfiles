@@ -7,6 +7,7 @@ set shiftwidth=4
 set termguicolors
 set guicursor+=a:blinkon2
 set cmdheight=3
+
 " split on bot
 set splitbelow
 
@@ -27,28 +28,23 @@ call plug#begin('~/.vim/plugged')
 	Plug 'xolox/vim-colorscheme-switcher'
 	Plug 'Pocco81/TrueZen.nvim'
 	Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+	Plug 'wakatime/vim-wakatime'
 	Plug 'cdelledonne/vim-cmake'
 call plug#end()
 
 " colorscheme
-let g:alduin_Shout_Fire_Breath = 1
 set background=dark
 colorscheme alduin
 
 " Coc setup
 "
-" Use <c-space> to trigger completion.
 inoremap  <C-.> coc#refresh()
-
-" GoTo code navigation.
-" nmap <silent> gd :sp<CR><Plug>(coc-definition)
 nmap <silent>gd :call CocAction('jumpDefinition', 'split')<CR>
 nmap <silent>gy <Plug>(coc-type-definition)
 nmap <silent>gi <Plug>(coc-implementation)
 nmap <silent>gr <Plug>(coc-references)
 nmap <leader>rn <Plug>(coc-rename)
 nmap <leader>qf <Plug>(coc-fix-current)
-
 " Use Alt+Q to show documentation in preview window.
 nnoremap <silent> <A-q> :call <SID>show_documentation()<CR>
 function! s:show_documentation()
@@ -66,5 +62,17 @@ nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(
 nnoremap <silent><nowait><F4> :CocCommand clangd.switchSourceHeader<CR>
 
 " Keybindings
+"
 nnoremap <silent><nowait><A-z> :TZAtaraxis<CR>
 nnoremap <silent><nowait><A-0> :NERDTreeToggle<CR>
+tnoremap <Esc> <C-\><C-n>
+
+" golang
+let g:go_fmt_command = "goimports"
+let g:go_textobj_include_function_doc = 1
+let g:go_fmt_fail_silently = 1
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4 :
