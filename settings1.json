@@ -26,27 +26,23 @@
             "keys": "alt+shift+d"
         }
     ],
-    "defaultProfile": "{1ed24701-2839-434f-bb20-dad145832901}",
-    "experimental.rendering.forceFullRepaint": true,
-    "launchMode": "fullscreen",
+    "alwaysShowNotificationIcon": true,
     "centerOnLaunch": true,
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "trimBlockSelection": true,
-    "snapToGridOnResize": true,
-    "alwaysShowNotificationIcon": true,
+    "defaultProfile": "{1ed24701-2839-434f-bb20-dad145832901}",
+    "experimental.rendering.forceFullRepaint": true,
     "focusFollowMouse": true,
-    "theme": "dark",
+    "launchMode": "default",
     "profiles": {
         "defaults": {
-            "font": {
-                "face": "PxPlus IBM VGA8"
-            },
             "colorScheme": "Ciapre",
+            "cursorShape": "vintage",
+            "font": {
+                "face": "IBM 3270"
+            },
             "intenseTextStyle": "none",
             "padding": "20",
-            "cursorShape": "vintage",
-            // "antialiasingMode": "cleartype",
             "scrollbarState": "hidden"
         },
         "list": [
@@ -63,14 +59,31 @@
                 "name": "Command Prompt"
             },
             {
-                "name": "Nasa PC",
-                "guid": "{1ed24701-2839-434f-bb20-dad145832901}",
-                "commandline": "powershell.exe",
-                "startingDirectory": "D:\\Dev",
-                "elevate": true,
+                "commandline": "powershell.exe -NoExit -Command \"&{Import-Module \"\"\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell a2d5c3f3 -SkipAutomaticLocation -DevCmdArguments \"\"\"-arch=x64 -host_arch=x64\"\"\"}\"",
                 "font": {
-                    "size": 16
-                }
+                    "size": 12
+                },
+                "guid": "{1ed24701-2839-434f-bb20-dad145832901}",
+                "name": "Nasa PC",
+                "startingDirectory": "D:\\Develop"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{5aef82f9-8c9d-5d76-81a3-2aa54dcb1020}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{97585f85-667d-561a-913f-616238a1a7e8}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -351,5 +364,8 @@
             "white": "#FFFFFF",
             "yellow": "#FDF834"
         }
-    ]
+    ],
+    "snapToGridOnResize": true,
+    "theme": "dark",
+    "trimBlockSelection": true
 }
