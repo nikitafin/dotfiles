@@ -1,0 +1,4 @@
+./.config/htop
+./.config/mc
+./.config/coc/extensions/coc-*
+./.config/coc/extensions/node_modules/*

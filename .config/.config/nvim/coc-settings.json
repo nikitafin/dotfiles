@@ -1,0 +1,24 @@
+{
+	"coc.preferences.formatOnSaveFiletypes": [
+		"jsonc",
+		"golang"
+	],
+	"coc.preferences.formatOnType": true,
+	"coc.source.file.ignoreHidden": false,
+	"json.enable": true,
+	"json.format.enable": true,
+	"cSpell.userWords": [
+		"Ataraxis",
+		"Cpell",
+		"Pocco",
+		"blinkon",
+		"borlandp",
+		"caglartoklu",
+		"fatih",
+		"itchyny",
+		"junegunn",
+		"neoclide",
+		"tpope",
+		"wakatime"
+	]
+}
