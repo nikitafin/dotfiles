@@ -5,7 +5,6 @@ set tabstop=4
 set mouse=a
 set shiftwidth=4
 set guicursor+=a:blinkon1
-set background=dark
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
 " Give more space for displaying messages.
@@ -26,6 +25,8 @@ set smartindent
 call plug#begin()
 	"========= COLORSCHEMES ========="
 	Plug 'caglartoklu/borlandp.vim'
+	Plug 'jaredgorski/spacecamp'
+	Plug 'lifepillar/vim-solarized8'
 	"===========  LANG  ============"
 	Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 	Plug 'neoclide/jsonc.vim'
@@ -51,11 +52,20 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
-" Formatting selected code.
+
+augroup mygroup
+  autocmd!
+  " Setup formatexpr specified filetype(s).
+  autocmd FileType typescript,json setl formatexpr=CocAction('formatSelected')
+  " Update signature help on jump placeholder.
+  autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
+augroup end
+
 nmap <leader>f  <Plug>(coc-format-selected)
-" sCpell
-vmap <C-a> <Plug>(coc-codeaction-selected)
-nmap <C-a> <Plug>(coc-codeaction-selected)
+vmap <c-q> <Plug>(coc-codeaction)
+nmap <c-q> <Plug>(coc-codeaction)
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call ShowDocumentation()<CR>
@@ -84,4 +94,8 @@ endfunction
 command W call WriteCreatingDirs()
 
 
-colorscheme darkblue
+" colorscheme darkblue
+" colorscheme spacecamp
+set background=dark
+set termguicolors
+colorscheme solarized8_flat
