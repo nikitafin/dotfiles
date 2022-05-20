@@ -115,4 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-eval ``keychain --eval --agents ssh id_ed25519
+
+alias python=python3

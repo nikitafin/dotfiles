@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=finogenov.nik@gmail.com
+Enabled=true
+Parent=c8384cef786c020ee23385f021b5425e7586ba9c
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=93f32ce992456d2d32e13f29382541f713778bea
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=finogenov.nik@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

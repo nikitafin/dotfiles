@@ -24,7 +24,7 @@ cpy: ## Copy dotfiles
 	cp ../.bashrc ./
 	cp ../.zshrc ./	
 	cp ../.gitconfig ./
-	cp ../.tmux.conf ./
+	# cp ../.tmux.conf ./
 	rsync -av --progress ../.config .config --exclude coc-go-data --exclude node_modules
 		
 ## Help:

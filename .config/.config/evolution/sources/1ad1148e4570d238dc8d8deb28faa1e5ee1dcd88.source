@@ -1,0 +1,31 @@
+[Data Source]
+DisplayName=enbsf@outlook.com
+Enabled=true
+Parent=
+
+[Authentication]
+Host=
+Method=none
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=
+CredentialName=
+IsExternal=true
+
+[Collection]
+BackendName=outlook
+CalendarEnabled=true
+ContactsEnabled=true
+Identity=24dcf4468d78f93d
+MailEnabled=true
+AllowSourcesRename=false
+CalendarUrl=
+ContactsUrl=
+
+[GNOME Online Accounts]
+AccountId=account_1652889609_1
+CalendarUrl=
+ContactsUrl=
+Name=
+Address=enbsf@outlook.com
