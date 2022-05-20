@@ -1,44 +1,22 @@
-autocmd!
-scriptencoding utf-8
 syntax on
-
-set nocompatible
+filetype plugin indent on
 
 set number
 set title
-set hidden
 set splitbelow
-set autoindent
-set smartindent
-set showcmd
-set lazyredraw
-" Ignore case when searching
-set ignorecase
 set termguicolors
-" Be smart when using tabs ;)
-set smarttab
-set nobackup
-set nowritebackup
-set noswapfile
-set nowrap "No Wrap lines
+set nowrap 
 
-
-set encoding=utf-8
 set tabstop=4
 set mouse=a
 set shiftwidth=4
 set guicursor+=a:blinkon1
-" Don't pass messages to |ins-completion-menu|.
-set shortmess+=c
-" Give more space for displaying messages.
 set cmdheight=2
 set updatetime=300
 set background=dark
 set laststatus=2
 set clipboard=unnamedplus
 
-" indents
-filetype plugin indent on
 
 call plug#begin()
 	"========= COLORSCHEMES ========="
@@ -55,6 +33,7 @@ call plug#begin()
 	Plug 'neoclide/jsonc.vim'
 	"============ MISC ============="
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'ctrlpvim/ctrlp.vim' 
 
 	Plug 'plasticboy/vim-markdown'
 	Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
@@ -69,9 +48,23 @@ call plug#begin()
 	Plug 'tpope/vim-surround'
 call plug#end()
 
+" coc config
+let g:coc_global_extensions = [
+  \ 'coc-json', 
+  \ 'coc-clangd', 
+  \ 'coc-go', 
+  \ 'coc-highlight', 
+  \ 'coc-marketplace',
+  \ 'coc-spell-checker',
+  \ 'coc-yaml',
+  \ ]
+
 " ==================================== KEYS
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
+
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
+                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
@@ -118,21 +111,7 @@ let g:mkdp_browser = '/snap/bin/firefox'
 
 " colorscheme darkblue
 " colorscheme spacecamp
-
-" Highlights "{{{
-" ---------------------------------------------------------------------
-
-set cursorline
-" Set cursor line color on visual mode
-" colorscheme solarizd8_flat
 colorscheme fahrenheit
-" colorscheme mountaineer
-
-" highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
-" hi Normal guibg=000000 
-" highlight NonText ctermbg=none
-" highlight NonText guibg=none
-"}}}
 
 let g:go_fmt_command = "goimports"
 let g:go_highlight_types = 1

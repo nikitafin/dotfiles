@@ -1,3 +1,5 @@
-
 [Default Applications]
 x-scheme-handler/eclipse+command=_usr_share_dbeaver-ce_.desktop
+
+[Added Associations]
+application/pdf=okularApplication_pdf.desktop;

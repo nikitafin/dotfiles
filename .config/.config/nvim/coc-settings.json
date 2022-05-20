@@ -7,6 +7,12 @@
 	"coc.preferences.formatOnType": true,
 	"coc.preferences.floatActions": true,
 	"coc.source.file.ignoreHidden": false,
+	"coc.preferences.enableFloatHighlight": true,
+	"suggest.enablePreview": true,
+	"suggest.floatEnable": true,
+	"hover.target": "preview",
+	"signature.target": "float",
+	"diagnostic.messageTarget": "float",
 	"json.enable": true,
 	"json.format.enable": true,
 	"clangd.checkUpdates": true,
@@ -46,4 +52,17 @@
 		"usePlaceholders": true,
 		"staticcheck": true
 	},
+	"languageserver": {
+		"golang": {
+			"command": "gopls",
+			"rootPatterns": [
+				"go.mod",
+				".vim/",
+				".git/"
+			],
+			"filetypes": [
+				"go"
+			]
+		}
+	}
 }
