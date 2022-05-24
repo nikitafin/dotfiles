@@ -1,0 +1,37 @@
+[2022-05-23 18:59:29.847] [exthost] [info] Extension host with pid 250131 started
+[2022-05-23 18:59:29.847] [exthost] [info] Skipping acquiring lock for /home/nikitafin/.config/Code/User/workspaceStorage/1df4ac072fa13c0b3e1321e699072ccb.
+[2022-05-23 18:59:29.903] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-05-23 18:59:29.945] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-23 18:59:29.949] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-05-23 18:59:29.951] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-23 18:59:29.982] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-23 18:59:29.997] [exthost] [info] Eager extensions activated
+[2022-05-23 18:59:29.998] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-23 18:59:30.012] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-23 18:59:30.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-05-23 18:59:34.072] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-05-23 18:59:55.126] [exthost] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-23 18:59:55.793] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'workspaceContains:*.go,*/*.go,*/*/*.go'
+[2022-05-23 18:59:56.010] [exthost] [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: '*'
+[2022-05-23 18:59:58.892] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-23 18:59:58.899] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-23 18:59:58.968] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-05-23 18:59:59.188] [exthost] [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: false, activationEvent: '*'
+[2022-05-23 18:59:59.843] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: false, activationEvent: 'workspaceContains:**/makefile,**/Makefile,**/GNUmakefile'
+[2022-05-23 19:00:02.333] [exthost] [info] ExtensionService#_doActivateExtension be5invis.vscode-custom-css, startup: false, activationEvent: '*'
+[2022-05-23 19:00:03.403] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-23 19:00:05.400] [exthost] [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight, startup: false, activationEvent: '*'
+[2022-05-23 19:00:05.774] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-23 19:00:06.252] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-23 19:00:07.007] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: '*'
+[2022-05-23 19:00:08.545] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-23 19:00:11.072] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker-russian, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-23 19:00:14.983] [exthost] [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: false, activationEvent: '*'
+[2022-05-23 19:04:26.537] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onWalkthrough:jupyterWelcome'
+[2022-05-23 19:04:27.170] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-05-23 19:04:27.171] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-05-23 19:06:16.022] [exthost] [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onView:dockerContainers'
+[2022-05-23 19:06:33.513] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onView:sshHosts'
+[2022-05-23 19:28:00.741] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-05-23 19:28:00.795] [exthost] [error] Error: ENOENT: no such file or directory, open '/home/nikitafin/.config/Code/User/globalStorage/vscodevim.vim/.registers'
+[2022-05-23 19:28:00.795] [exthost] [info] Extension host with pid 250131 exiting with code 0

@@ -1,0 +1,4 @@
+[5/23/2022, 7:32:07 PM] For C source files, IntelliSenseMode was changed from "windows-msvc-x64" to "linux-clang-x64" based on compiler args and querying compilerPath: "/usr/bin/clang"
+[5/23/2022, 7:32:07 PM] IntelliSenseMode was changed because it didn't match the detected compiler.  Consider setting "compilerPath" instead.  Set "compilerPath" to "" to disable detection of system includes and defines.
+[5/23/2022, 7:32:07 PM] For C++ source files, IntelliSenseMode was changed from "windows-msvc-x64" to "linux-clang-x64" based on compiler args and querying compilerPath: "/usr/bin/clang"
+[5/23/2022, 7:32:07 PM] IntelliSenseMode was changed because it didn't match the detected compiler.  Consider setting "compilerPath" instead.  Set "compilerPath" to "" to disable detection of system includes and defines.

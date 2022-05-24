@@ -1,0 +1,12 @@
+[Info  - 7:04:28 PM] (253997) Pylance language server 2022.5.2 (pyright 0577bc22) starting
+[Info  - 7:04:28 PM] (253997) Server root directory: /home/nikitafin/.vscode/extensions/ms-python.vscode-pylance-2022.5.2/dist
+[Info  - 7:04:28 PM] (253997) No configuration file found.
+[Info  - 7:04:28 PM] (253997) No pyproject.toml file found.
+[Info  - 7:04:28 PM] (253997) Setting pythonPath for service "pacardo-todo-server": "/bin/python3"
+[Warn  - 7:04:28 PM] (253997) stubPath /home/nikitafin/Documents/pacardo-todo-server/typings is not a valid directory.
+[Info  - 7:04:28 PM] (253997) Assuming Python version 3.10
+[Info  - 7:04:28 PM] (253997) Assuming Python platform Linux
+[Info  - 7:04:28 PM] (253997) Searching for source files
+[Info  - 7:04:28 PM] (253997) No source files found.
+[Info  - 7:04:28 PM] (253997) Background analysis(1) root directory: /home/nikitafin/.vscode/extensions/ms-python.vscode-pylance-2022.5.2/dist
+[Info  - 7:04:28 PM] (253997) Background analysis(1) started

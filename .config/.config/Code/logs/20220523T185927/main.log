@@ -1,0 +1,14 @@
+[2022-05-23 18:59:27.908] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-23 18:59:27.919] [main] [info] update#setState idle
+[2022-05-23 18:59:27.937] [main] [info] ExtensionHostStarterWorker created
+[2022-05-23 18:59:28.924] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-23 18:59:29.183] [main] [info] Starting extension host with pid 250131 (fork() took 7 ms).
+[2022-05-23 18:59:29.183] [main] [info] ExtensionHostStarterWorker.start() took 21 ms.
+[2022-05-23 18:59:57.920] [main] [info] update#setState checking for updates
+[2022-05-23 18:59:57.967] [main] [info] update#setState idle
+[2022-05-23 19:03:39.326] [main] [error] Blocked vscode-webview request vscode-webview://0i3jvn0or6t94p6qvor6u7irp01asmpe3ph2p3baoth9nraadcle/index.html?id=bdd1b9cb-f67f-49a6-80d7-6e04ac95139f&swVersion=4&extensionId=&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app
+[2022-05-23 19:03:39.333] [main] [error] Blocked vscode-webview request vscode-webview://1uceovasl80t11ofc99ue98ks7s62p5uumas4jl9kdam1bqvbm8m/index.html?id=a4f32e12-b25c-4c27-a8fd-151ef3705026&swVersion=4&extensionId=&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app
+[2022-05-23 19:03:39.624] [main] [error] Blocked vscode-webview request vscode-webview://1tfa4b8pu7l54nfa4rs504qmeninll6bbnhbehf9dvt1og30g2gp/index.html?id=102ad45f-3710-4f11-b180-26e19ff95a1c&swVersion=4&extensionId=&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app
+[2022-05-23 19:03:46.154] [main] [error] Blocked vscode-webview request vscode-webview://1t3kla3sdu2af7emj0uobm45mn2qn3nvtcnja5jbfkd6r7c9121h/index.html?id=3abe26f4-6a47-41ca-b00f-b6dc64b17ac4&swVersion=4&extensionId=&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app
+[2022-05-23 19:28:00.746] [main] [info] Waiting for extension host with pid 250131 to exit.
+[2022-05-23 19:28:00.814] [main] [info] Extension host with pid 250131 exited with code: 0, signal: null.

@@ -1,68 +1,25 @@
 {
 	"coc.preferences.formatOnSaveFiletypes": [
-		"jsonc",
-		"golang",
-		"cpp"
+		"json",
+		"jsonc"
 	],
-	"coc.preferences.formatOnType": true,
-	"coc.preferences.floatActions": true,
-	"coc.source.file.ignoreHidden": false,
-	"coc.preferences.enableFloatHighlight": true,
-	"suggest.enablePreview": true,
-	"suggest.floatEnable": true,
-	"hover.target": "preview",
-	"signature.target": "float",
-	"diagnostic.messageTarget": "float",
-	"json.enable": true,
-	"json.format.enable": true,
-	"clangd.checkUpdates": true,
-	"cSpell.userWords": [
-		"Ataraxis",
-		"Cpell",
-		"Pocco",
-		"blinkon",
-		"borlandp",
-		"caglartoklu",
-		"creatly",
-		"fatih",
-		"flazz",
-		"goimports",
-		"iamcco",
-		"itchyny",
-		"jaredgorski",
-		"junegunn",
-		"mathjax",
-		"minio",
-		"mkdp",
-		"mongodb",
-		"mygroup",
-		"neoclide",
-		"nolint",
-		"rafi",
-		"tpope",
-		"wakatime",
-		"xolox",
-		"zhashkevych"
-	],
-	"go.goplsPath": "gopls",
-	"go.goplsOptions": {
-		"experimentalPostfixCompletions": true,
-		"semanticTokens": true,
-		"linksInHover": false,
-		"usePlaceholders": true,
-		"staticcheck": true
-	},
+	"diagnostic.level": "warning",
+	"diagnostic.messageDelay": 0,
+	"diagnostic.checkCurrentLine": true,
+	"diagnostic.format": "%message",
 	"languageserver": {
 		"golang": {
 			"command": "gopls",
 			"rootPatterns": [
 				"go.mod",
-				".vim/",
 				".git/"
 			],
 			"filetypes": [
 				"go"
-			]
+			],
+			"initializationOptions": {
+				"completeUnimported": true
+			}
 		}
 	}
 }

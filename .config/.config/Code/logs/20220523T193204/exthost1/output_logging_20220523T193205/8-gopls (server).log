@@ -1,0 +1,1883 @@
+[Info  - 7:32:06 PM] 2022/05/23 19:32:06 go env for /home/nikitafin/Documents/temp/creatly-backend
+(root /home/nikitafin/Documents/temp/creatly-backend)
+(go version go version go1.18.1 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOROOT=/usr/lib/go-1.18
+GOSUMDB=sum.golang.org
+GONOPROXY=
+GOPRIVATE=
+GOPATH=/home/nikitafin/go
+GOFLAGS=
+GOMOD=/home/nikitafin/Documents/temp/creatly-backend/go.mod
+GONOSUMDB=
+GO111MODULE=
+GOCACHE=/home/nikitafin/.cache/go-build
+GOINSECURE=
+GOPROXY=https://proxy.golang.org,direct
+GOMODCACHE=/home/nikitafin/go/pkg/mod
+GOWORK=
+
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 go/packages.Load
+	snapshot=0
+	directory=/home/nikitafin/Documents/temp/creatly-backend
+	query=[builtin github.com/zhashkevych/creatly-backend/...]
+	packages=39
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 falling back to safe trimming due to type errors: [/usr/lib/go-1.18/src/runtime/vdso_linux.go:53:38: invalid operation: division by zero /usr/lib/go-1.18/src/runtime/vdso_linux.go:54:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 discovered missing identifiers: map[options:true]
+	package="golang.org/x/text/unicode/bidi"
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 discovered missing identifiers: map[reqOption:true]
+	package="github.com/cloudflare/cloudflare-go"
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 discovered missing identifiers: map[yaml_style_t:true]
+	package="gopkg.in/yaml.v2"
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 discovered missing identifiers: map[region:true service:true]
+	package="github.com/aws/aws-sdk-go/aws/endpoints"
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 discovered missing identifiers: map[tagging:true]
+	package="github.com/minio/minio-go/v7/pkg/tags"
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 discovered missing identifiers: map[yaml_style_t:true]
+	package="gopkg.in/yaml.v3"
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 discovered missing identifiers: map[credentialValueProvider:true]
+	package="github.com/aws/aws-sdk-go/aws/signer/v4"
+
+[Info  - 7:32:07 PM] 2022/05/23 19:32:07 discovered missing identifiers: map[decoderOptions:true encoderOptions:true]
+	package="github.com/klauspost/compress/zstd"
+
+[Info  - 7:32:08 PM] 2022/05/23 19:32:08 discovered missing identifiers: map[config:true connectionConfig:true serverConfig:true]
+	package="go.mongodb.org/mongo-driver/x/mongo/driver/topology"
+
+[Info  - 7:32:08 PM] 2022/05/23 19:32:08 discovered missing identifiers: map[cpuMask:true]
+	package="golang.org/x/sys/unix"
+
+[Info  - 7:32:08 PM] 2022/05/23 19:32:08 discovered missing identifiers: map[fieldKey:true]
+	package="github.com/sirupsen/logrus"
+
+[Info  - 7:32:08 PM] 2022/05/23 19:32:08 discovered missing identifiers: map[cardinality:true kind:true syntax:true value:true]
+	package="google.golang.org/protobuf/reflect/protoreflect"
+
+[Info  - 7:32:08 PM] 2022/05/23 19:32:08 discovered missing identifiers: map[debugMethod:true]
+	package="net/rpc"
+
+[Info  - 7:32:08 PM] 2022/05/23 19:32:08 discovered missing identifiers: map[intf2impl:true]
+	package="github.com/ugorji/go/codec"
+
+[Info  - 7:32:08 PM] 2022/05/23 19:32:08 falling back to safe trimming due to type errors: [/usr/lib/go-1.18/src/internal/buildcfg/exp.go:24:38: 2-valued (func() (goexperiment.Flags, goexperiment.Flags) literal)() (value of type (goexperiment.Flags, goexperiment.Flags)) where single value is expected] or still-missing identifiers: map[]
+	package="internal/buildcfg"
+
+[Info  - 7:32:08 PM] 2022/05/23 19:32:08 discovered missing identifiers: map[term:true]
+	package="go/types"
+
+[Info  - 7:32:08 PM] 2022/05/23 19:32:08 discovered missing identifiers: map[file:true part:true]
+	package="github.com/go-gomail/gomail"
+
+[Error - 7:32:09 PM] 2022/05/23 19:32:09 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+go: downloading golang.org/x/mod v0.4.2
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:32:19 PM] 2022/05/23 19:32:19 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+go: downloading golang.org/x/mod v0.4.2
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:32:29 PM] 2022/05/23 19:32:29 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+go: downloading golang.org/x/mod v0.4.2
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:32:30 PM] 2022/05/23 19:32:30 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+go: downloading golang.org/x/mod v0.4.2
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:32:49 PM] 2022/05/23 19:32:49 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+go: downloading golang.org/x/mod v0.4.2
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:32:55 PM] 2022/05/23 19:32:55 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+go: downloading golang.org/x/mod v0.4.2
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:32:58 PM] 2022/05/23 19:32:58 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+go: downloading golang.org/x/mod v0.4.2
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:33:03 PM] 2022/05/23 19:33:03 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:33:10 PM] 2022/05/23 19:33:10 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:33:25 PM] 2022/05/23 19:33:25 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:33:29 PM] 2022/05/23 19:33:29 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:33:33 PM] 2022/05/23 19:33:33 background imports cache refresh starting
+
+[Info  - 7:33:33 PM] 2022/05/23 19:33:33 background refresh finished after 459.303207ms
+
+[Error - 7:34:03 PM] 2022/05/23 19:34:03 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:34:05 PM] 2022/05/23 19:34:05 background imports cache refresh starting
+
+[Info  - 7:34:05 PM] 2022/05/23 19:34:05 background refresh finished after 22.832084ms
+
+[Error - 7:34:16 PM] 2022/05/23 19:34:16 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:34:32 PM] 2022/05/23 19:34:32 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:34:41 PM] 2022/05/23 19:34:41 background imports cache refresh starting
+
+[Info  - 7:34:41 PM] 2022/05/23 19:34:41 background refresh finished after 22.296926ms
+
+[Info  - 7:35:16 PM] 2022/05/23 19:35:16 background imports cache refresh starting
+
+[Info  - 7:35:16 PM] 2022/05/23 19:35:16 background refresh finished after 30.318367ms
+
+[Error - 7:35:57 PM] 2022/05/23 19:35:57 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:36:10 PM] 2022/05/23 19:36:10 background imports cache refresh starting
+
+[Info  - 7:36:10 PM] 2022/05/23 19:36:10 background refresh finished after 21.282771ms
+
+[Info  - 7:36:41 PM] 2022/05/23 19:36:41 background imports cache refresh starting
+
+[Info  - 7:36:41 PM] 2022/05/23 19:36:41 background refresh finished after 22.186008ms
+
+[Error - 7:36:49 PM] 2022/05/23 19:36:49 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:37:14 PM] 2022/05/23 19:37:14 background imports cache refresh starting
+
+[Info  - 7:37:14 PM] 2022/05/23 19:37:14 background refresh finished after 30.732756ms
+
+[Info  - 7:37:44 PM] 2022/05/23 19:37:44 background imports cache refresh starting
+
+[Info  - 7:37:44 PM] 2022/05/23 19:37:44 background refresh finished after 20.113727ms
+
+[Error - 7:37:45 PM] 2022/05/23 19:37:45 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:37:50 PM] 2022/05/23 19:37:50 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:37:57 PM] 2022/05/23 19:37:57 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:38:14 PM] 2022/05/23 19:38:14 background imports cache refresh starting
+
+[Info  - 7:38:14 PM] 2022/05/23 19:38:14 background refresh finished after 30.136976ms
+
+[Info  - 7:38:44 PM] 2022/05/23 19:38:44 background imports cache refresh starting
+
+[Info  - 7:38:44 PM] 2022/05/23 19:38:44 background refresh finished after 22.586808ms
+
+[Info  - 7:46:20 PM] 2022/05/23 19:46:20 background imports cache refresh starting
+
+[Info  - 7:46:20 PM] 2022/05/23 19:46:20 background refresh finished after 30.629936ms
+
+[Error - 7:46:30 PM] 2022/05/23 19:46:30 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:46:46 PM] 2022/05/23 19:46:46 tidy: diagnosing file:///home/nikitafin/Documents/temp/creatly-backend/go.mod: err: exit status 1: stderr: go: downloading gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc
+go: downloading gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+go: downloading github.com/gin-contrib/gzip v0.0.1
+go: downloading github.com/google/go-cmp v0.5.2
+go: downloading github.com/tidwall/pretty v1.0.0
+go: downloading gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
+go: downloading github.com/smartystreets/goconvey v1.6.4
+go: downloading github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
+go: downloading golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1
+go: downloading golang.org/x/mod v0.4.2
+go: downloading github.com/jmespath/go-jmespath/internal/testify v1.5.1
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail imports
+	gopkg.in/alexcesaro/quotedprintable.v3: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/gin-contrib/gzip: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo tested by
+	go.mongodb.org/mongo-driver/mongo.test imports
+	github.com/google/go-cmp/cmp: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/bson tested by
+	go.mongodb.org/mongo-driver/bson.test imports
+	github.com/tidwall/pretty: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/repository imports
+	go.mongodb.org/mongo-driver/mongo/options tested by
+	go.mongodb.org/mongo-driver/mongo/options.test imports
+	github.com/google/go-cmp/cmp/cmpopts: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/pkg/email/smtp imports
+	github.com/go-gomail/gomail tested by
+	github.com/go-gomail/gomail.test imports
+	gopkg.in/gomail.v2: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/app imports
+	github.com/minio/minio-go/v7/pkg/credentials imports
+	gopkg.in/ini.v1 tested by
+	gopkg.in/ini.v1.test imports
+	github.com/smartystreets/goconvey/convey: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/config imports
+	github.com/spf13/viper imports
+	gopkg.in/yaml.v2 tested by
+	gopkg.in/yaml.v2.test imports
+	gopkg.in/check.v1: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http imports
+	github.com/swaggo/gin-swagger tested by
+	github.com/swaggo/gin-swagger.test imports
+	github.com/swaggo/gin-swagger/example/basic/docs imports
+	github.com/alecthomas/template: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/xerrors: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/go/expect imports
+	golang.org/x/mod/modfile: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/docs imports
+	github.com/swaggo/swag imports
+	golang.org/x/tools/go/loader imports
+	golang.org/x/tools/go/buildutil tested by
+	golang.org/x/tools/go/buildutil.test imports
+	golang.org/x/tools/go/packages/packagestest imports
+	golang.org/x/tools/internal/gocommand imports
+	golang.org/x/mod/semver: module lookup disabled by GOPROXY=off
+github.com/zhashkevych/creatly-backend/internal/delivery/http/v1 imports
+	go.mongodb.org/mongo-driver/mongo imports
+	go.mongodb.org/mongo-driver/x/mongo/driver/auth imports
+	github.com/aws/aws-sdk-go/aws/signer/v4 imports
+	github.com/aws/aws-sdk-go/aws/request imports
+	github.com/aws/aws-sdk-go/aws/awsutil imports
+	github.com/jmespath/go-jmespath tested by
+	github.com/jmespath/go-jmespath.test imports
+	github.com/jmespath/go-jmespath/internal/testify/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:46:54 PM] 2022/05/23 19:46:54 background imports cache refresh starting
+
+[Info  - 7:46:54 PM] 2022/05/23 19:46:54 background refresh finished after 29.481131ms
+
+[Info  - 7:49:38 PM] 2022/05/23 19:49:38 background imports cache refresh starting
+
+[Info  - 7:49:38 PM] 2022/05/23 19:49:38 background refresh finished after 22.035605ms
+
+[Info  - 5:43:24 PM] 2022/05/24 17:43:24 background imports cache refresh starting
+
+[Info  - 5:43:24 PM] 2022/05/24 17:43:24 background refresh finished after 190.583591ms
+
