@@ -1,0 +1,26 @@
+  {
+    "suggest.noselect": false,
+    "coc.preferences.formatOnSaveFiletypes": [
+      "c",
+      "cmake",
+      "c++",
+      "cpp",
+      "json",
+      "cs",
+      "go"
+    ],
+    "powershell.integratedConsole.showOnStartup": false,
+    "languageserver": {
+      "golang": {
+        "command": "gopls",
+        "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+        "filetypes": [
+          "go"
+        ]
+      }
+    },
+    "go.goplsOptions": {
+      "staticcheck": true
+
+    }
+  }
