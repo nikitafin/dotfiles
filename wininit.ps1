@@ -1,17 +1,19 @@
-function WindowsTerminalPath {
-	Write-Output "Install WINTERM variable"
+function WindowsTerminalPath([string]$winterm) {
+	REG delete HKCU\Environment /F /V $winterm | Out-Null
+
 	$basepath = "$env:USERPROFILE\AppData\Local\Packages"
-	Write-Output "Base path: $basepath"
 	$wintermdir = Get-ChildItem $basepath -Recurse | Where-Object { $_.Name -match "WindowsTerminal" }
-	Write-Output "WindowsTerminal dir: $wintermdir"
 	$settingsdir = "$basepath\$wintermdir\LocalState"
-	Write-Output "WindowsTerminal settings path: $settingsdir"
+	
+	Write-Output "[$winterm]WindowsTerminal settings path: $settingsdir"
 	if (Test-Path -Path $settingsdir) {
-		setx WINTERM $settingsdir | Out-Null
+		setx $winterm $settingsdir | Out-Null
 	}
 	else {
 		Write-Error -Message "Can't find windows terminal config directory" -RecommendedAction "Make sure windows terminal installed"
 	}
 }
 
-WindowsTerminalPath
+WindowsTerminalPath("WINTERM")
+
+Set-Variable -Name $env:WSLENV -Value "WINTERM/p" -Force 
