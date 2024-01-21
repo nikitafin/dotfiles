@@ -13,7 +13,7 @@ export ZSH="$XDG_DATA_HOME"/oh-my-zsh
 export HISTFILE="$XDG_STATE_HOME"/zsh/history
 
 # Set name of the theme to load
-ZSH_THEME="robbyrussell"
+ZSH_THEME="half-life" # set by `omz`
 
 # update automatically without asking
 zstyle ':omz:update' mode auto    
@@ -40,12 +40,14 @@ export PATH="$PATH:$CARGO_HOME/bin"
 export DOCKER_CONFIG="$XDG_CONFIG_HOME"/docker
 
 # Golabg
-export PATH="$PATH:/usr/local/go/bin"
 export GOPATH="$XDG_DATA_HOME"/go
+export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:$GOPATH/bin"
 
 # Other
 export AZURE_CONFIG_DIR="$XDG_DATA_HOME"/azure
-
 export AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME"/aws/credentials
 export AWS_CONFIG_FILE="$XDG_CONFIG_HOME"/aws/config
+export PYTHONSTARTUP="/etc/python/pythonrc"
+
+export PATH="/home/nikitafin/.local/bin:$PATH"
